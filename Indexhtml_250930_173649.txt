@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McDave Amisty's World Limited</title>
+  <style>
+    body { margin:0; font-family: Arial,sans-serif; line-height:1.6; background:#f9f9f9; color:#333; }
+    header { background:#2c3e50; color:#fff; padding:1.5rem; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; font-weight:bold; }
+    section { padding:2rem; max-width:900px; margin:auto; }
+    h2 { color:#2c3e50; }
+    .services { display:flex; flex-wrap:wrap; gap:20px; }
+    .service { flex:1 1 calc(33% - 20px); background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    footer { background:#2c3e50; color:#fff; text-align:center; padding:1rem; margin-top:30px; }
+    @media(max-width:768px){ .service { flex:1 1 100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>McDave Amisty's World Limited</h1>
+    <p>We deal in Gadgets and accessories, Consoles, Apple music subscriptions, PlayStation Cards and more</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At McDave Amisty’s World Limited, we provide top-quality gadgets, accessories, and digital services. From the latest consoles to Apple Music subscriptions and PlayStation cards, we are your one-stop destination for tech and entertainment needs.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service"><h3>Gadgets & Accessories</h3><p>Explore a wide range of top-quality gadgets and must-have accessories.</p></div>
+      <div class="service"><h3>Game Consoles</h3><p>Get the latest consoles for the ultimate gaming experience.</p></div>
+      <div class="service"><h3>Apple Music Subscriptions</h3><p>Enjoy premium Apple Music at affordable rates.</p></div>
+      <div class="service"><h3>PlayStation Gift Cards</h3><p>Buy PlayStation cards easily and top up your gaming account.</p></div>
+      <div class="service"><h3>Other Digital Services</h3><p>We also offer a variety of digital solutions to fit your needs.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:mcdave.gadgets@gmail.com">mcdave.gadgets@gmail.com</a></p>
+    <p>Phone: <a href="tel:+233245174448">0245174448</a> / <a href="tel:+233575089688">0575089688</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 McDave Amisty's World Limited. All rights reserved.</p>
+  </footer>
+</body>
+</html>
